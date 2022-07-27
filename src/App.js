@@ -6,6 +6,8 @@ import {
 import Beranda from "./Pages/Beranda";
 import './App.css';
 import RegisProducts from "./Pages/RegisProducts";
+import Products from "./Pages/Products";
+import DetailProducts from "./Pages/DetailProducts";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Beranda />} />
           <Route path="/registrasi-products" element={<RegisProducts />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/detail-products" element={<DetailProducts />} />
         </Routes>
       </BrowserRouter>
     </div>

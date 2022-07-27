@@ -1,0 +1,73 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+import coffee from '../Asset/coffee.jpg'
+
+function Card() {
+  return (
+    <div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5'>
+        <div className='bg-white rounded-lg border border-[#f1f3f5] drop-shadow-md hover:drop-shadow-lg max-w-sm'>
+            <img src={coffee} className='h-48 w-full rounded-t-lg object-cover'/>
+            
+            <div className='p-5'>
+                <h3 className='font-medium text-2xl mb-2'>Toraja Coffee</h3>
+                <p className='mb-5'>The term complex is almost an understatement for this fine single origin coffee. This Toraja coffee offers an array of flavors including that of ripe fruit</p>
+                <Link to="/detail-products">
+                    <div className='flex justify-center'>
+                        <button className='text-white bg-primary p-2 rounded-lg w-8/12 hover:drop-shadow-lg'>Detail Products</button>
+                    </div>
+                </Link>
+            </div>
+        </div>
+
+        <div className='bg-white rounded-lg border border-[#f1f3f5] drop-shadow-md hover:drop-shadow-lg max-w-sm'>
+            <img src={coffee} className='h-48 w-full rounded-t-lg object-cover'/>
+            
+            <div className='p-5'>
+                <h3 className='font-medium text-2xl mb-2'>Toraja Coffee</h3>
+                <p className='mb-5'>The term complex is almost an understatement for this fine single origin coffee. This Toraja coffee offers an array of flavors including that of ripe fruit</p>
+                <div className='flex justify-center'>
+                    <button className='text-white bg-primary p-2 rounded-lg w-8/12 hover:drop-shadow-lg'>Detail Products</button>
+                </div>
+            </div>
+        </div>
+
+        <div className='bg-white rounded-lg border border-[#f1f3f5] drop-shadow-md hover:drop-shadow-lg max-w-sm'>
+            <img src={coffee} className='h-48 w-full rounded-t-lg object-cover'/>
+            
+            <div className='p-5'>
+                <h3 className='font-medium text-2xl mb-2'>Toraja Coffee</h3>
+                <p className='mb-5'>The term complex is almost an understatement for this fine single origin coffee. This Toraja coffee offers an array of flavors including that of ripe fruit</p>
+                <div className='flex justify-center'>
+                    <button className='text-white bg-primary p-2 rounded-lg w-8/12 hover:drop-shadow-lg'>Detail Products</button>
+                </div>
+            </div>
+        </div>
+
+        <div className='bg-white rounded-lg border border-[#f1f3f5] drop-shadow-md hover:drop-shadow-lg max-w-sm'>
+            <img src={coffee} className='h-48 w-full rounded-t-lg object-cover'/>
+            
+            <div className='p-5'>
+                <h3 className='font-medium text-2xl mb-2'>Toraja Coffee</h3>
+                <p className='mb-5'>The term complex is almost an understatement for this fine single origin coffee. This Toraja coffee offers an array of flavors including that of ripe fruit</p>
+                <div className='flex justify-center'>
+                    <button className='text-white bg-primary p-2 rounded-lg w-8/12 hover:drop-shadow-lg'>Detail Products</button>
+                </div>
+            </div>
+        </div>
+
+        <div className='bg-white rounded-lg border border-[#f1f3f5] drop-shadow-md hover:drop-shadow-lg max-w-sm'>
+            <img src={coffee} className='h-48 w-full rounded-t-lg object-cover'/>
+            
+            <div className='p-5'>
+                <h3 className='font-medium text-2xl mb-2'>Toraja Coffee</h3>
+                <p className='mb-5'>The term complex is almost an understatement for this fine single origin coffee. This Toraja coffee offers an array of flavors including that of ripe fruit</p>
+                <div className='flex justify-center'>
+                    <button className='text-white bg-primary p-2 rounded-lg w-8/12 hover:drop-shadow-lg'>Detail Products</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default Card
