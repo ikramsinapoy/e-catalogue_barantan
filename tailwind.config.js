@@ -17,7 +17,13 @@ module.exports = {
       'gray-light': '#d3dce6',
       'white': '#FFFFFF',
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'home' : "url('/src/Component/Asset/landingPage/satu.jpg')",
+        'page' : "url('/src/Component/Asset/landingPage/2.jpg')",
+        // 'tour' : "url('/src/Images/pinkBeach.jpg')"
+      }
+    },
   },
   plugins: [],
 }

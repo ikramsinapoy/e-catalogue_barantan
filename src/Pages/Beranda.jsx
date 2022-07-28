@@ -9,11 +9,17 @@ function Beranda() {
   return (
     <div>
         <Navbar/>
-        <div  className='my-20 w-11/12 md:w-3/4 mx-auto'>
           <ImageSlider/>
-          <Products/>
-          <Promote/>
-        </div>
+          {/* <div className='bg-page bg-cover bg-no-repeat'> */}
+            <div className='py-20 w-11/12 md:w-3/4 mx-auto bg-white'>
+              {/* <div className=''> */}
+                <Products/>
+                <Promote/>
+              {/* </div> */}
+              
+            </div>
+          {/* </div> */}
+        
         
         <Footer/>
     </div>

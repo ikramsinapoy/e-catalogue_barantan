@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 function Promote() {
   return (
     <div>
-        <h2 className='font-bold text-3xl text-center mb-10'>How To Promotes</h2>
+        <h2 className='font-bold text-4xl text-center mb-10'>How To Promotes</h2>
 
         <div className='flex flex-col gap-10 md:gap-20 md:flex-row justify-center items-center mb-10'>
             <div className='w-48'>
