@@ -11,7 +11,7 @@ function Beranda() {
         <Navbar/>
           <ImageSlider/>
           {/* <div className='bg-page bg-cover bg-no-repeat'> */}
-            <div className='py-20 w-11/12 md:w-3/4 mx-auto bg-white'>
+            <div className='py-20 w-11/12 xl:w-3/4 mx-auto bg-white'>
               {/* <div className=''> */}
                 <Products/>
                 <Promote/>

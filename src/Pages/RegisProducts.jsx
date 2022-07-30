@@ -9,7 +9,7 @@ function RegisProducts() {
         <Navbar/>
 
         <div className='my-20 w-11/12 md:w-8/12 mx-auto'>
-            <h1 className='text-3xl font-bold mb-14'>Register Products</h1>
+            <h2 className='font-bold text-6xl mb-10 text-[#333333]'>Register Products</h2>
             <Form/>
         </div>
         <Footer/>
