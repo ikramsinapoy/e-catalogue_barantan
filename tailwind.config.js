@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}", './src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js'
   ],
   theme: {
     colors: {
@@ -21,9 +21,10 @@ module.exports = {
       backgroundImage: {
         'home' : "url('/src/Component/Asset/landingPage/satu.jpg')",
         'page' : "url('/src/Component/Asset/landingPage/2.jpg')",
+        'estate' : "url('/src/Component/Asset/coffee.jpg')",
         // 'tour' : "url('/src/Images/pinkBeach.jpg')"
       }
     },
   },
-  plugins: [],
+  plugins: [require('tw-elements/dist/plugin')],
 }

@@ -7,11 +7,16 @@ function RegisProducts() {
   return (
     <div>
         <Navbar/>
-
-        <div className='my-20 w-11/12 md:w-8/12 mx-auto'>
-            <h2 className='font-bold text-6xl mb-10 text-[#333333]'>Register Products</h2>
-            <Form/>
+        <div className='bg-home bg-cover bg-no-repeat'>
+          <div className='pt-10 xl:pt-20 pb-20 w-11/12 lg:w-4/5 xl:w-8/12 mx-auto'>
+            <div className='p-5 bg-white rounded-lg drop-shadow-lg border border-[#e9ecef]'>
+              <h2 className='font-bold text-4xl lg:text-5xl xl:text-6xl mb-10 text-[#333333]'>Register Products</h2>
+              <Form/>
+            </div>
+              
+          </div>
         </div>
+        
         <Footer/>
     </div>
   )

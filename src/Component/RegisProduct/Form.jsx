@@ -1,29 +1,30 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 function Form() {
+    const [type, setType] = useState("")
   return (
     <div className=''>
-        <h3 className='text-4xl text-[#333333] font-semibold'>Company</h3>
+        <h3 className='text-3xl xl:text-4xl text-[#333333] font-semibold'>Company</h3>
         <hr className='my-5'/>
 
         <form>
             <div className='flex flex-col md:flex-row md:items-center justify-between mb-3'>
-                <p className='text-lg'>Nama Perusahaan</p>
+                <p className='text-lg'>Company Name</p>
                 <input className='border border-[#ced4da] rounded-md p-2 md:w-2/3' type="text"/>
             </div>
             
             <div className='flex flex-col md:flex-row md:items-center justify-between mb-3'>
-                <p className='text-lg'>Alamat Perusahaan</p>
+                <p className='text-lg'>Company Address</p>
                 <input className='border border-[#ced4da] rounded-md p-2 md:w-2/3' type="text"/>
             </div>
 
             <div className='flex flex-col md:flex-row md:items-center justify-between mb-7'>
-                <p className='text-lg'>Kontak Perusahaan</p>
+                <p className='text-lg'>Contact</p>
                 <input className='border border-[#ced4da] rounded-md p-2 md:w-2/3' type="phone"/>
             </div>
 
-            <h3 className='text-2xl font-medium'>Products</h3>
+            <h3 className='text-3xl xl:text-4xl font-medium'>Products</h3>
             <hr className='my-5'/>
             
             <div className='flex flex-col md:flex-row md:items-center justify-between mb-3'>
@@ -43,7 +44,7 @@ function Form() {
             </div>
 
             <div className='flex flex-col md:flex-row md:items-center justify-between mb-3'>
-                <p className='text-lg'>Name Products</p>
+                <p className='text-lg'>Description Products</p>
                 <textarea className='border border-[#ced4da] rounded-md p-2 md:w-2/3' rows="4"></textarea>
             </div>
 
@@ -59,12 +60,21 @@ function Form() {
 
             <div className='flex flex-col md:flex-row md:items-center justify-between mb-7'>
                 <p className='text-lg'>Best Price</p>
-                <input className='border border-[#ced4da] rounded-md p-2 md:w-2/3' type="text"/>
+                <div className='md:w-2/3 flex flex-col md:flex-row md:items-center justify-between gap-2'>
+                    <input className='border border-[#ced4da] rounded-md p-2 w-full' type="text"/>
+                    <p className='text-lg ml-3 md:ml-0'>/</p>
+                    <select className='border border-[#ced4da] rounded-md p-2 '>
+                        <option value="gram">gram</option>
+                        <option value="ons">hg(ons)</option>
+                        <option value="kg">kg</option>
+                    </select>
+                </div>
+                
             </div>
 
             <div className='flex justify-center'>
                 <Link to="/">
-                    <button className='bg-primary text-white rounded-md p-2 w-52 font-medium text-lg hover:drop-shadow-xl'>Submit</button>
+                    <button className='bg-primary hover:bg-[#2f9e44] text-white rounded-md p-2 w-52 font-medium text-lg hover:drop-shadow-md'>Submit</button>
                 </Link>
             </div>
         </form>

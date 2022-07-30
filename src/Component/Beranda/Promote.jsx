@@ -38,7 +38,7 @@ function Promote() {
 
         <div className='flex justify-center'>
             <Link to="/registrasi-products">
-                <button className='bg-primary text-white p-3 rounded-md w-52 font-medium text-lg hover:drop-shadow-xl'>promote me!</button>
+                <button className='bg-primary hover:bg-[#2f9e44] text-white p-3 rounded-md w-52 font-medium text-lg hover:drop-shadow-md'>promote me!</button>
             </Link>
         </div>
     </div>
