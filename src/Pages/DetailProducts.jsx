@@ -1,9 +1,13 @@
 import React from 'react'
+import { useParams } from 'react-router-dom'
 import Footer from '../Component/Navigation/Footer'
 import Navbar from '../Component/Navigation/Navbar'
 import Carousel from '../Component/Products/Carousel'
 
 function DetailProducts() {
+    const { id }  = useParams()
+
+    console.log(id)
   return (
     <div>
         <Navbar/>
