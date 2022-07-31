@@ -22,6 +22,8 @@ module.exports = {
         'home' : "url('/src/Component/Asset/landingPage/satu.jpg')",
         'page' : "url('/src/Component/Asset/landingPage/2.jpg')",
         'estate' : "url('/src/Component/Asset/coffee.jpg')",
+        'horticulture' : "url('/src/Component/Asset/landingPage/2.jpg')",
+        'animal' : "url('/src/Component/Asset/landingPage/cow.jpg')",
         // 'tour' : "url('/src/Images/pinkBeach.jpg')"
       }
     },

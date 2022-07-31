@@ -8,8 +8,8 @@ function Products() {
     <div>
         <Navbar/>
         <div className='my-20 w-11/12 lg:w-3/4 mx-auto'>
-            <h1 className='text-3xl font-bold mb-14'>Coffee Bean</h1>
-            <Card/>
+          <h2 className='font-bold text-4xl lg:text-5xl xl:text-6xl mb-10 text-[#333333] backdrop-blur-sm'>Coffe Bean</h2>
+          <Card/>
         </div>
         <Footer/>
     </div>

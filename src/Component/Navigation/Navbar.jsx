@@ -68,22 +68,22 @@ function Navbar() {
                                     right-0
                                 " aria-labelledby="dropdownMenuButton2">
                                     <li>
-                                        <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-gray-light" href="#">
+                                        <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-gray-light" href="/estate">
                                             <div className='flex gap-2 items-center'>Estate</div>
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-gray-light" href="#">
+                                        <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-gray-light" href="/horticulture">
                                             <div className='flex gap-2 items-center'>Horticulture</div>
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-gray-light" href="#">
+                                        <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-gray-light" href="/crops">
                                             <div className='flex gap-2 items-center'>Crops</div>
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-gray-light" href="#">
+                                        <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-gray-light" href="/animal">
                                             <div className='flex gap-2 items-center'>Animal</div>
                                         </a>
                                     </li>

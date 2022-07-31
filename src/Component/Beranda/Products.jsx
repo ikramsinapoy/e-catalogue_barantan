@@ -15,7 +15,7 @@ function Products() {
                 <h4 className='font-bold text-5xl text-left mb-3 text-[#333333]'>Estate</h4>
                 <p className='text-xl text-left mb-5 text-[#555555]'>Indonesian coffee has a distinctive taste. Different acidity levels from each producing area.</p>
                 <div className='flex justify-start'>
-                    <Link to="/commodity">
+                    <Link to="/estate">
                         <button className='bg-primary hover:bg-[#2f9e44] text-white p-3 rounded-md'>
                             See Products
                         </button>
@@ -31,9 +31,11 @@ function Products() {
                 <h4 className='font-bold text-5xl text-left mb-3 text-[#333333]'>Horticulture</h4>
                 <p className='text-xl text-left mb-5 text-[#555555]'>Tropical fruits from Indonesia have a high diversity. The quality can compete in the global market.</p>
                 <div className='flex justify-start'>
-                    <button className='bg-primary hover:bg-[#2f9e44] text-white p-3 rounded-md'>
-                        See Products
-                    </button>
+                    <Link to="/horticulture">
+                        <button className='bg-primary hover:bg-[#2f9e44] text-white p-3 rounded-md'>
+                            See Products
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>
@@ -43,9 +45,11 @@ function Products() {
                 <h4 className='font-bold text-5xl text-left mb-3 text-[#333333]'>Crops</h4>
                 <p className='text-xl text-left mb-5 text-[#555555]'>Indonesian food plants as a source of carbohyrates and other content are in great demand by other countries.</p>
                 <div className='flex justify-start'>
-                    <button className='bg-primary hover:bg-[#2f9e44] text-white p-3 rounded-md'>
-                        See Products
-                    </button>
+                    <Link to="/crops">
+                        <button className='bg-primary hover:bg-[#2f9e44] text-white p-3 rounded-md'>
+                            See Products
+                        </button>
+                    </Link>
                 </div>
             </div>
             <img src={horticulture} className='w-full lg:w-1/2 h-48 md:h-60 2xl:h-96 object-cover rounded'/>
@@ -57,9 +61,11 @@ function Products() {
                 <h4 className='font-bold text-5xl text-left mb-3 text-[#333333]'>Animal</h4>
                 <p className='text-xl text-left mb-5 text-[#555555]'>Indonesian swiflet nests contains sialic acid which is beneficial for brain development. it also has low nitrite levels.</p>
                 <div className='flex justify-start'>
-                    <button className='bg-primary hover:bg-[#2f9e44] text-white p-3 rounded-md'>
-                        See Products
-                    </button>
+                    <Link to="/animal">
+                        <button className='bg-primary hover:bg-[#2f9e44] text-white p-3 rounded-md'>
+                            See Products
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>
