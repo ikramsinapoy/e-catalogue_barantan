@@ -1,11 +1,15 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import Footer from '../Component/Navigation/Footer'
 import Navbar from '../Component/Navigation/Navbar'
 import Carousel from '../Component/Products/Carousel'
 
 function DetailProducts() {
     const { id }  = useParams()
+    const navigate = useNavigate()
+    const onClick = () => {
+        navigate(-1)
+    }
 
     console.log(id)
   return (
@@ -15,14 +19,13 @@ function DetailProducts() {
             <div className='mb-5'>
                 <nav class="rounded-md w-full">
                     <ol class="list-reset flex">
-                        <li><a href="/products" class="text-[#1c7ed6] hover:text-blue">Products</a></li>
+                        <li><a href="#" onClick={onClick} class="text-[#1c7ed6] hover:text-blue">Products</a></li>
                         <li><span class="text-gray-500 mx-2">/</span></li>
                         <li class="text-gray-500">Detail Products</li>
                     </ol>
                 </nav>
             </div>
             
-
             <Carousel/>
             <div className='mt-10'>
                 <div className='mb-10'>

@@ -16,7 +16,7 @@ function CardHorticulture() {
                     <h3 className='font-bold text-4xl mb-5 text-[#333333] text-center'>Mangosteen</h3>
                     <Link to="/products">
                         <div className='flex justify-center'>
-                            <button className='text-white bg-primary hover:bg-[#2f9e44] p-2 rounded-lg w-8/12 hover:drop-shadow-md'>View Products</button>
+                            <button className='text-white bg-primary hover:bg-[#2f9e44] p-2 rounded-md w-8/12 hover:drop-shadow-md'>View Products</button>
                         </div>
                     </Link>
                 </div>
@@ -28,7 +28,7 @@ function CardHorticulture() {
                 <div className='p-5'>
                     <h3 className='font-bold text-4xl mb-5 text-[#333333] text-center'>Mango</h3>
                     <div className='flex justify-center'>
-                        <button className='text-white bg-primary hover:bg-[#2f9e44] p-2 rounded-lg w-8/12 hover:drop-shadow-md'>View Products</button>
+                        <button className='text-white bg-primary hover:bg-[#2f9e44] p-2 rounded-md w-8/12 hover:drop-shadow-md'>View Products</button>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@ function CardHorticulture() {
                 <div className='p-5'>
                     <h3 className='font-bold text-4xl mb-5 text-[#333333] text-center'>Banana</h3>
                     <div className='flex justify-center'>
-                        <button className='text-white bg-primary hover:bg-[#2f9e44] p-2 rounded-lg w-8/12 hover:drop-shadow-md'>View Products</button>
+                        <button className='text-white bg-primary hover:bg-[#2f9e44] p-2 rounded-md w-8/12 hover:drop-shadow-md'>View Products</button>
                     </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@ function CardHorticulture() {
                 <div className='p-5'>
                     <h3 className='font-bold text-4xl mb-5 text-[#333333] text-center'>Pineapple</h3>
                     <div className='flex justify-center'>
-                        <button className='text-white bg-primary hover:bg-[#2f9e44] p-2 rounded-lg w-8/12 hover:drop-shadow-md'>View Products</button>
+                        <button className='text-white bg-primary hover:bg-[#2f9e44] p-2 rounded-md w-8/12 hover:drop-shadow-md'>View Products</button>
                     </div>
                 </div>
             </div>

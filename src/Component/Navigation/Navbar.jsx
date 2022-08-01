@@ -18,17 +18,8 @@ function Navbar() {
                     </svg>
                 </button>
 
-                <div class="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent">
-                    <a class="
-                            flex
-                            items-center
-                            text-gray-900
-                            hover:text-gray-900
-                            focus:text-gray-900
-                            mt-2
-                            lg:mt-0
-                            mr-1
-                        " href="/">
+                <div class="collapse navbar-collapse flex-grow items-center pb-2 lg:pb-0" id="navbarSupportedContent">
+                    <a class="flex items-center mt-2 lg:mt-0 mr-1" href="/">
                         <img src={logo} className="w-10" alt=""
                         loading="lazy" />
                     </a>
@@ -90,11 +81,11 @@ function Navbar() {
                                     </ul>
                                 </div>
                             </li>
-                            <li class="nav-item p-2">
+                            {/* <li class="nav-item p-2">
                                 <Link to="/aboutUs">
                                     <a class="nav-link text-[#333333] hover:text-[#555555] font-semibold focus:focus:text-[#555555] p-0" href="#">Tentang Kami</a>
                                 </Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
