@@ -1,44 +1,289 @@
 [
-    {   
-        "id": 1,
-        "nameCompany": "PT taruna jaya",
-        "addressCompany": "jl soekarno hatta",
-        "contactCompany": "085297964859",
-        "nameProducts": "Toraja Coffe",
+    {
         "type": "estate",
-        "commodity": "coffee",
-        "price" : 230,
-        "unit": "gram",
-        "description": "Commonly called Madagascar Bourbon Vanilla, this plant actually originates from Mexico, but entered Indonesia in 1819 and it turns out to be more fertile in Indonesia because it has a more tropical climate, so that it has higher levels of vanilin, Indonesia has the best quality in the world for this type, its gourmet or prime of vanilla beans. higher moisture and best for extraction process.",
-        "origin": "Indonesia, Sumatra, Gayo",
-        "species": "arabica"
+        "commodity": [
+            {
+                "name": "coffee bean",
+                "products": [
+                    {
+                        "id": 1,
+                        "nameCompany": "PT taruna jaya",
+                        "addressCompany": "jl soekarno hatta",
+                        "contactCompany": "085297964859",
+                        "nameProducts": "Luwak Coffe",
+                        "price" : 100,
+                        "unit": "gram",
+                        "description": "The Kopi Luwak Coffee is the rarest and most expensive coffee globally with an incredibly limited supply being grown each year. This coffee was made famous from the 2007 movie, The Bucket List.",
+                        "origin": "Indonesia, Sumatra, Gayo",
+                        "species": "arabica"
+                    },
+                    {
+                        "id": 2,
+                        "nameCompany": "PT taruna jaya",
+                        "addressCompany": "jl soekarno hatta",
+                        "contactCompany": "085297964859",
+                        "nameProducts": "Gayo Coffe",
+                        "type": "estate",
+                        "commodity": "coffee",
+                        "price" : 50,
+                        "unit": "gram",
+                        "description": "The term complex is almost an understatement for this fine single origin coffee.",
+                        "origin": "Indonesia, Sumatra, Gayo",
+                        "species": "arabica"
+                    },
+                    {
+                        "id": 3,
+                        "nameCompany": "PT taruna jaya",
+                        "addressCompany": "jl soekarno hatta",
+                        "contactCompany": "085297964859",
+                        "nameProducts": "Toraja Coffe",
+                        "type": "estate",
+                        "commodity": "coffee",
+                        "price" : 230,
+                        "unit": "gram",
+                        "description": "Commonly called Madagascar Bourbon Vanilla, this plant actually originates from Mexico, but entered Indonesia in 1819 and it turns out to be more fertile in Indonesia because it has a more tropical climate, so that it has higher levels of vanilin, Indonesia has the best quality in the world for this type, its gourmet or prime of vanilla beans. higher moisture and best for extraction process.",
+                        "origin": "Indonesia, Sumatra, Gayo",
+                        "species": "arabica"
+                    }
+                ]
+            },
+            {
+                "name": "Nutmeg",
+                "products": [
+                    {
+                        "id": 1,
+                        "nameCompany": "PT taruna jaya",
+                        "addressCompany": "jl soekarno hatta",
+                        "contactCompany": "085297964859",
+                        "nameProducts": "Luwak Coffe",
+                        "price" : 100,
+                        "unit": "gram",
+                        "description": "The Kopi Luwak Coffee is the rarest and most expensive coffee globally with an incredibly limited supply being grown each year. This coffee was made famous from the 2007 movie, The Bucket List.",
+                        "origin": "Indonesia, Sumatra, Gayo",
+                        "species": "arabica"
+                    }
+                ]
+            },
+            {
+                "name": "Vanili",
+                "products": [
+                    {
+                        "id": 1,
+                        "nameCompany": "PT taruna jaya",
+                        "addressCompany": "jl soekarno hatta",
+                        "contactCompany": "085297964859",
+                        "nameProducts": "Luwak Coffe",
+                        "price" : 100,
+                        "unit": "gram",
+                        "description": "The Kopi Luwak Coffee is the rarest and most expensive coffee globally with an incredibly limited supply being grown each year. This coffee was made famous from the 2007 movie, The Bucket List.",
+                        "origin": "Indonesia, Sumatra, Gayo",
+                        "species": "arabica"
+                    }
+                ]
+            },
+            {
+                "name": "Pepper",
+                "products": [
+                    {
+                        "id": 1,
+                        "nameCompany": "PT taruna jaya",
+                        "addressCompany": "jl soekarno hatta",
+                        "contactCompany": "085297964859",
+                        "nameProducts": "Luwak Coffe",
+                        "price" : 100,
+                        "unit": "gram",
+                        "description": "The Kopi Luwak Coffee is the rarest and most expensive coffee globally with an incredibly limited supply being grown each year. This coffee was made famous from the 2007 movie, The Bucket List.",
+                        "origin": "Indonesia, Sumatra, Gayo",
+                        "species": "arabica"
+                    }
+                ]
+            }
+        ]
     },
-    {   
-        "id": 2,
-        "nameCompany": "PT taruna jaya",
-        "addressCompany": "jl soekarno hatta",
-        "contactCompany": "085297964859",
-        "nameProducts": "Gayo Coffe",
-        "type": "estate",
-        "commodity": "coffee",
-        "price" : 50,
-        "unit": "gram",
-        "description": "The term complex is almost an understatement for this fine single origin coffee.",
-        "origin": "Indonesia, Sumatra, Gayo",
-        "species": "arabica"
+    {
+        "type": "horticulture",
+        "commodity": [
+            {
+                "name": "mango",
+                "products": [
+                    {
+                        "id": 1,
+                        "nameCompany": "PT taruna jaya",
+                        "addressCompany": "jl soekarno hatta",
+                        "contactCompany": "085297964859",
+                        "nameProducts": "Luwak Coffe",
+                        "type": "estate",
+                        "commodity": "coffee",
+                        "price" : 100,
+                        "unit": "gram",
+                        "description": "The Kopi Luwak Coffee is the rarest and most expensive coffee globally with an incredibly limited supply being grown each year. This coffee was made famous from the 2007 movie, The Bucket List.",
+                        "origin": "Indonesia, Sumatra, Gayo",
+                        "species": "arabica"
+                    }
+                ]
+            },
+            {
+                "name": "mangosteen",
+                "products": [
+                    {
+                        "id": 1,
+                        "nameCompany": "PT taruna jaya",
+                        "addressCompany": "jl soekarno hatta",
+                        "contactCompany": "085297964859",
+                        "nameProducts": "Luwak Coffe",
+                        "type": "estate",
+                        "commodity": "coffee",
+                        "price" : 100,
+                        "unit": "gram",
+                        "description": "The Kopi Luwak Coffee is the rarest and most expensive coffee globally with an incredibly limited supply being grown each year. This coffee was made famous from the 2007 movie, The Bucket List.",
+                        "origin": "Indonesia, Sumatra, Gayo",
+                        "species": "arabica"
+                    }
+                ]
+            },
+            {
+                "name": "banana",
+                "products": [
+                    {
+                        "id": 1,
+                        "nameCompany": "PT taruna jaya",
+                        "addressCompany": "jl soekarno hatta",
+                        "contactCompany": "085297964859",
+                        "nameProducts": "Luwak Coffe",
+                        "type": "estate",
+                        "commodity": "coffee",
+                        "price" : 100,
+                        "unit": "gram",
+                        "description": "The Kopi Luwak Coffee is the rarest and most expensive coffee globally with an incredibly limited supply being grown each year. This coffee was made famous from the 2007 movie, The Bucket List.",
+                        "origin": "Indonesia, Sumatra, Gayo",
+                        "species": "arabica"
+                    }
+                ]
+            },
+            {
+                "name": "pineapple",
+                "products": [
+                    {
+                        "id": 1,
+                        "nameCompany": "PT taruna jaya",
+                        "addressCompany": "jl soekarno hatta",
+                        "contactCompany": "085297964859",
+                        "nameProducts": "Luwak Coffe",
+                        "type": "estate",
+                        "commodity": "coffee",
+                        "price" : 100,
+                        "unit": "gram",
+                        "description": "The Kopi Luwak Coffee is the rarest and most expensive coffee globally with an incredibly limited supply being grown each year. This coffee was made famous from the 2007 movie, The Bucket List.",
+                        "origin": "Indonesia, Sumatra, Gayo",
+                        "species": "arabica"
+                    }
+                ]
+            }
+        ]
     },
-    {   
-        "id": 3,
-        "nameCompany": "PT taruna jaya",
-        "addressCompany": "jl soekarno hatta",
-        "contactCompany": "085297964859",
-        "nameProducts": "Luwak Coffe",
-        "type": "estate",
-        "commodity": "coffee",
-        "price" : 100,
-        "unit": "gram",
-        "description": "The Kopi Luwak Coffee is the rarest and most expensive coffee globally with an incredibly limited supply being grown each year. This coffee was made famous from the 2007 movie, The Bucket List.",
-        "origin": "Indonesia, Sumatra, Gayo",
-        "species": "arabica"
+    {
+        "type": "Crops",
+        "commodity": [
+            {
+                "name": "mung bean",
+                "products": [
+                    {
+                        "id": 1,
+                        "nameCompany": "PT taruna jaya",
+                        "addressCompany": "jl soekarno hatta",
+                        "contactCompany": "085297964859",
+                        "nameProducts": "Luwak Coffe",
+                        "type": "estate",
+                        "commodity": "coffee",
+                        "price" : 100,
+                        "unit": "gram",
+                        "description": "The Kopi Luwak Coffee is the rarest and most expensive coffee globally with an incredibly limited supply being grown each year. This coffee was made famous from the 2007 movie, The Bucket List.",
+                        "origin": "Indonesia, Sumatra, Gayo",
+                        "species": "arabica"
+                    }
+                ]
+            },
+            {
+                "name": "porang",
+                "products": [
+                    {
+                        "id": 1,
+                        "nameCompany": "PT taruna jaya",
+                        "addressCompany": "jl soekarno hatta",
+                        "contactCompany": "085297964859",
+                        "nameProducts": "Luwak Coffe",
+                        "type": "estate",
+                        "commodity": "coffee",
+                        "price" : 100,
+                        "unit": "gram",
+                        "description": "The Kopi Luwak Coffee is the rarest and most expensive coffee globally with an incredibly limited supply being grown each year. This coffee was made famous from the 2007 movie, The Bucket List.",
+                        "origin": "Indonesia, Sumatra, Gayo",
+                        "species": "arabica"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Animal",
+        "commodity": [
+            {
+                "name": "honey",
+                "products": [
+                    {
+                        "id": 1,
+                        "nameCompany": "PT taruna jaya",
+                        "addressCompany": "jl soekarno hatta",
+                        "contactCompany": "085297964859",
+                        "nameProducts": "Luwak Coffe",
+                        "type": "estate",
+                        "commodity": "coffee",
+                        "price" : 100,
+                        "unit": "gram",
+                        "description": "The Kopi Luwak Coffee is the rarest and most expensive coffee globally with an incredibly limited supply being grown each year. This coffee was made famous from the 2007 movie, The Bucket List.",
+                        "origin": "Indonesia, Sumatra, Gayo",
+                        "species": "arabica"
+                    }
+                ]
+            },
+            {
+                "name": "Bird's Nest",
+                "products": [
+                    {
+                        "id": 1,
+                        "nameCompany": "PT taruna jaya",
+                        "addressCompany": "jl soekarno hatta",
+                        "contactCompany": "085297964859",
+                        "nameProducts": "Luwak Coffe",
+                        "type": "estate",
+                        "commodity": "coffee",
+                        "price" : 100,
+                        "unit": "gram",
+                        "description": "The Kopi Luwak Coffee is the rarest and most expensive coffee globally with an incredibly limited supply being grown each year. This coffee was made famous from the 2007 movie, The Bucket List.",
+                        "origin": "Indonesia, Sumatra, Gayo",
+                        "species": "arabica"
+                    }
+                ]
+            },
+            {
+                "name": "black soldier fly",
+                "products": [
+                    {
+                        "id": 1,
+                        "nameCompany": "PT taruna jaya",
+                        "addressCompany": "jl soekarno hatta",
+                        "contactCompany": "085297964859",
+                        "nameProducts": "Luwak Coffe",
+                        "type": "estate",
+                        "commodity": "coffee",
+                        "price" : 100,
+                        "unit": "gram",
+                        "description": "The Kopi Luwak Coffee is the rarest and most expensive coffee globally with an incredibly limited supply being grown each year. This coffee was made famous from the 2007 movie, The Bucket List.",
+                        "origin": "Indonesia, Sumatra, Gayo",
+                        "species": "arabica"
+                    }
+                ]
+            }
+        ]
     }
 ]

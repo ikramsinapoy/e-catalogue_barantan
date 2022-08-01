@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import coffee from '../Asset/coffee.jpg';
-import ListCoffee from '../../productscoffee.json';
+import ListCoffee from '../../products.json';
 
 function Card() {
     return (
@@ -10,7 +10,7 @@ function Card() {
                 ListCoffee.map( value => {
                     return(
                         <div key={value.id} className='bg-white rounded-lg border border-[#f1f3f5] drop-shadow-md hover:drop-shadow-lg max-w-sm'>
-                            <img src={coffee} className='h-48 w-full rounded-t-lg object-cover'/>
+                            <img src={coffee} alt="#" className='h-48 w-full rounded-t-lg object-cover'/>
                             
                             <div className='p-5'>
                                 <h3 className='font-semibold text-3xl text-[#333333] mb-2'>{value.nameProducts}</h3>
@@ -23,11 +23,9 @@ function Card() {
                             </div>
                         </div>
                     )
-                    
                 })
             }
             
-
             {/* <div className='bg-white rounded-lg border border-[#f1f3f5] drop-shadow-md hover:drop-shadow-lg max-w-sm'>
                 <img src={coffee} className='h-48 w-full rounded-t-lg object-cover'/>
                 
