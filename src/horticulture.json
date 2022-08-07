@@ -1,21 +1,135 @@
 [
     {
         "id": 1,
-        "nameCompany": "PT Batavia Ekspor",
-        "addressCompany": "Jl. Kemang Raya",
+        "nameCompany": "PT Mahkota Manggis",
+        "addressCompany": "Jl. KH. Abdul Hamid",
         "contactCompany": "085297964859",
         "nameProducts": "Mangosteen",
         "type": "horticulture",
         "commodity": "mangosteen",
         "picture": [
-            "https://drive.google.com/uc?export=view&id=1BUsBbVAVTsQI88z9Pb3UFwbHeML1xuUR",
-            "https://drive.google.com/uc?export=view&id=1b_TL3ewPlCLj9JDqk9eAaxAkdb47lRAV" 
+            "https://drive.google.com/uc?export=view&id=17bGyWGtXWJJ-ywwfhWt9-SRheYfdeaEk", 
+            "https://drive.google.com/uc?export=view&id=1cIqfkHRIL0K2gE5y77qe3JcJXu_TTGfm"
         ],
         "price" : 195,
         "unit": "kg",
-        "description": "Porang or in its Latin name Amorphophallus muelleri is a herbal plant that can grow to a height of 1.5 meters. This plant is a tuber producer that grows in tropical forests. Physically, this plant grows with white-green striped stems or single stalks. This plant can only grow under a supporting tree.",
-        "benefit": "Can help the diet, Lowering cholesterol and blood pressure, Lower the levels blood sugar",
+        "description": "Mangosteen (Garcinia mangostana L.) is an original Indonesian fruit and found over the archipelago which trees height grows up to 7 to 25 meters. The fruit known as the (queen of tropical fruit), in the world trade has the main harvesting season from September to April. Mangosteen is also known as a fruit that has the highest levels of antioxidants in the world. Based on data from Statistics Indonesia, the national mangosteen production in 2020 was 322,414 tons, an increase of 30.81% compared to the previous year. Mangosteen contains bioactive compounds such as xanthones, terpenes, anthocyanins, tannins, phenols, and several vitamins.",
+        "benefit": "Boost the imun system, Accelerate wound healing, Helping to lose weight",
         "origin": "Indonesia",
-        "species": "Porang"
+        "species": "Mangosteen"
+    },
+    {
+        "id": 2,
+        "nameCompany": "PT Hyper Mega Shipping",
+        "addressCompany": "Jl. Pangeran Jayakarta",
+        "contactCompany": "085297964859",
+        "nameProducts": "Harum Manis Mango",
+        "type": "horticulture",
+        "commodity": "mango",
+        "picture": [
+            "https://drive.google.com/uc?export=view&id=1ys836Cw3Hjk2kD7-UJbNV5ib7xQxrSUI", 
+            "https://drive.google.com/uc?export=view&id=1vPw2bl7CiOrnAaPxb-qBABsPNDDvSCXM"
+        ],
+        "price" : 195,
+        "unit": "kg",
+        "description": "The ripe Mango Arumanis has dark green skin coated with thin grayish natural wax. The flesh is deep yellow, thick, and soft with little to no fiber.",
+        "benefit": "Boost the imun system, Accelerate wound healing, Helping to lose weight",
+        "origin": "Probolinggo, East Java, Indonesia",
+        "species": "Harum Manis Mango"
+    },
+    {
+        "id": 3,
+        "nameCompany": "PT Sinar Terang Artharaya",
+        "addressCompany": "Jl. Mangga Dua Raya",
+        "contactCompany": "085297964859",
+        "nameProducts": "Honey Mango",
+        "type": "horticulture",
+        "commodity": "mango",
+        "picture": [
+            "https://drive.google.com/uc?export=view&id=1UK6ZVAxO3WWyr-3989uAi4yTb0b6RpIF", 
+            "https://drive.google.com/uc?export=view&id=1Z7ni-1ylgvpx_JFk5cHFefvkFLYULfvh"
+        ],
+        "price" : 195,
+        "unit": "kg",
+        "description": "At a glance the honey mango resembles a gedong mango, except the whole skin is bright yellow when ripe. This mango is very sweet like honey, although the fruit is still white.",
+        "benefit": "Boost the imun system, Accelerate wound healing, Helping to lose weight",
+        "origin": "Sumatra, Java, Kalimantan",
+        "species": "Honey Mango"
+    },
+    {
+        "id": 4,
+        "nameCompany": "PT Icsa Indonesia",
+        "addressCompany": "Jl. KH. Abdul Hamid",
+        "contactCompany": "085297964859",
+        "nameProducts": "Indramayu Mango",
+        "type": "horticulture",
+        "commodity": "mango",
+        "picture": [
+            "https://drive.google.com/uc?export=view&id=1tXDjpSBA4tRumOxofgYIlNvtVFbcvOQT", 
+            "https://drive.google.com/uc?export=view&id=14cjc7Lzdg97tlQCeR2DS0paIY_lTxnde"
+        ],
+        "price" : 195,
+        "unit": "kg",
+        "description": " The ripe Mangga Indramayu has green and yellowish skin. It has thick, slightly watery flesh and prominent fibers.",
+        "benefit": "Boost the imun system, Accelerate wound healing, Helping to lose weight",
+        "origin": "Indramayu, West Java, Indonesia",
+        "species": "Indramayu Mango"
+    },
+    {
+        "id": 5,
+        "nameCompany": "PT Great Giant Pineapple",
+        "addressCompany": "Jl. KH. Abdul Hamid",
+        "contactCompany": "085297964859",
+        "nameProducts": "Pineapple",
+        "type": "horticulture",
+        "commodity": "pineapple",
+        "picture": [
+            "https://drive.google.com/uc?export=view&id=1IXdde9-7-aT_1QdfwHPC6e8jya1Xv9ix",
+            "https://drive.google.com/uc?export=view&id=1GfOL5CYWm3d1QSkvBB8mjPm-Hjl3_EFr" 
+        ],
+        "price" : 2.08,
+        "unit": "kg",
+        "description": "The pineapple (Ananas comosus L.) is one of the leading commodities in Indonesia as it is the third-most produced fruit in Indonesia (after the banana and mango). Almost everywhere across the Indonesian archipelago pineapple is produced, but the largest production centers are located in Lampung, Jambi, North Sumatra, East Java and West Java.",
+        "benefit": "Loaded with nutrients, Contains disease-fighting antioxidants, May aid digestion",
+        "origin": "Indonesia",
+        "species": "Pineapple"
+    },
+    {
+        "id": 6,
+        "nameCompany": "PT Icsa Indonesia",
+        "addressCompany": "Jl. KH. Abdul Hamid",
+        "contactCompany": "085297964859",
+        "nameProducts": "Banana Ambon",
+        "type": "horticulture",
+        "commodity": "banana",
+        "picture": [
+            "https://drive.google.com/uc?export=view&id=1Is6CpLz1tX6Emzga-zgetqUvB13aPYEv",
+            "https://drive.google.com/uc?export=view&id=1xXBdoy0Vh1O6P2es2U7rwP_e1d7Ef9af"
+        ],
+        "price" : 2.99,
+        "unit": "kg",
+        "description": "Some characteristics of Ambon bananas are that they have a soft skin structure of green or yellow color. The flesh of the fruit is white with a taste of unbidity and sweetness.",
+        "benefit": "May aid weight loss, May support heart health, Full of antioxidants",
+        "origin": "Indonesia",
+        "species": "Banana Ambon"
+    },
+    {
+        "id": 7,
+        "nameCompany": "PT Icsa Indonesia",
+        "addressCompany": "Jl. KH. Abdul Hamid",
+        "contactCompany": "085297964859",
+        "nameProducts": "Golden Banana",
+        "type": "horticulture",
+        "commodity": "banana",
+        "picture": [
+            "https://drive.google.com/uc?export=view&id=1EC9lflqaC7KJDE0FKs94HthtaIb0pQQx", 
+            "https://drive.google.com/uc?export=view&id=1jUEYFf2iFIJDiRqslGjGidL-TQLBHn6Y"
+        ],
+        "price" : 1.5,
+        "unit": "kg",
+        "description": "As the name implies, this banana has a golden color when ripe with thin skin.",
+        "benefit": "Rich in nutrients, May improve blood sugar levels, May support digestive health",
+        "origin": "Indonesia",
+        "species": "Golden Banana"
     }
 ]

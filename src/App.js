@@ -18,6 +18,7 @@ import ProductsHorticulture from "./Pages/ProductsHorticulture";
 import DetailHorticulture from "./Component/Products/DetailHorticulture";
 import ProductsAnimal from "./Pages/ProductsAnimal";
 import DetailAnimal from "./Component/Products/DetailAnimal";
+import RegisteredProducts from "./Pages/RegisteredProducts";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           <Route path="/detail-crops/:idProducts" element={<DetailProductsCrops />} />
           <Route path="/detail-horticulture/:idProducts" element={<DetailHorticulture />} />
           <Route path="/detail-animal/:idProducts" element={<DetailAnimal />} />
+          <Route path="/registered-products" element={<RegisteredProducts />} />
         </Routes>
       </BrowserRouter>
     </div>

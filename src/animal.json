@@ -1,21 +1,59 @@
 [
     {
         "id": 1,
-        "nameCompany": "PT Batavia Ekspor",
-        "addressCompany": "Jl. Kemang Raya",
+        "nameCompany": "PT Anugerah Citra Walet Indonesia",
+        "addressCompany": "Curug, Gunung Sindur, West Java",
         "contactCompany": "085297964859",
-        "nameProducts": "birdNest",
-        "type": "crops",
+        "nameProducts": "Bird's Nest",
+        "type": "animal",
         "commodity": "birdNest",
         "picture": [
-            "https://drive.google.com/uc?export=view&id=1BUsBbVAVTsQI88z9Pb3UFwbHeML1xuUR",
-            "https://drive.google.com/uc?export=view&id=1b_TL3ewPlCLj9JDqk9eAaxAkdb47lRAV" 
+            "https://drive.google.com/uc?export=view&id=1_2r9WiWNf6e8cIE5GhaR7UC0BItEKhEq",
+            "https://drive.google.com/uc?export=view&id=1PRkR6_eRDEm1GWVZSHFgBdrmqKU8fbNe"
         ],
-        "price" : 195,
+        "price" : 1500,
         "unit": "kg",
-        "description": "Porang or in its Latin name Amorphophallus muelleri is a herbal plant that can grow to a height of 1.5 meters. This plant is a tuber producer that grows in tropical forests. Physically, this plant grows with white-green striped stems or single stalks. This plant can only grow under a supporting tree.",
-        "benefit": "Can help the diet, Lowering cholesterol and blood pressure, Lower the levels blood sugar",
+        "description": "Swallow's Nest is a bird's nest that mostly comes from swallow's saliva which functions to nest, lay eggs, incubate and raise their hatchlings.",
+        "benefit": "May combat illness, Bone health, Could support diabetes management",
         "origin": "Indonesia",
-        "species": "Porang"
+        "species": "Bird's Nest"
+    },
+    {
+        "id": 2,
+        "nameCompany": "PT Lantabura International",
+        "addressCompany": "Jl. Tole Iskandar",
+        "contactCompany": "085297964859",
+        "nameProducts": "Honey",
+        "type": "animal",
+        "commodity": "honey",
+        "picture": [
+            "https://drive.google.com/uc?export=view&id=1spXMoT-ySG-gYnkFaZ9qKaYvwzzAUGDX",
+            "https://drive.google.com/uc?export=view&id=1gL295zIiftRdjOw3xvQdP5qKV42D73Ru"
+        ],
+        "price" : 60,
+        "unit": "kg",
+        "description": "The natural sweet substance produced by honey bees from the nectar of plants or from secretions of living parts of plants or excretions of plant sucking insects on the living parts of plants, which the bees collect, transform by combining with specific substances of their own, deposit, dehydrate, store and leave in the honey comb to ripen and mature.",
+        "benefit": "Has increasing of stamina and appetite, Has strong anti-bacterial power,  Healthy skin, Lowering blood pressure, Improve cholesterol, healing ulcers, Help relieve cough and cold",
+        "origin": "Indonesia",
+        "species": "Honey"
+    },
+    {
+        "id": 3,
+        "nameCompany": "PT Agrofarm",
+        "addressCompany": "Jl. Sungai Sambas",
+        "contactCompany": "085297964859",
+        "nameProducts": "Black Soldier Fly",
+        "type": "animal",
+        "commodity": "blackSoldierFly",
+        "picture": [
+            "https://drive.google.com/uc?export=view&id=1CwldXRQsvALoVl_Ay3ati-7q5m9ATmdQ",
+            "https://drive.google.com/uc?export=view&id=1RntLfB5H86rRg1w9Xd1YMB9egIQe8RM0"
+        ],
+        "price" : 10,
+        "unit": "kg",
+        "description": "Black soldier fly (maggot/larvae) is low in pathogen infection and contains antimicrobial peptide which makes maggot more valuable compared to other insects as feed. Bestico Dried Larvae is a product of black soldier fly by heating fresh larvae in a short time that still contains high protein and fat content. Dried Larvae triggers a positive behavioral response and higher feed intake at low inclusion rates. In addition to a rich and well-balanced protein and fatty acid content, dried larvae provides a wide range of interesting micronutrients.",
+        "benefit": "More iron and sinc than lean meat, its calcium content is higher than milk, Essential amino acids",
+        "origin": "Indonesia",
+        "species": "Black Soldier Fly"
     }
 ]

@@ -83,7 +83,7 @@ function Navbar() {
                                 </div>
                             </li>
                             <li className="nav-item p-2">
-                                <Link to="/aboutUs">
+                                <Link to="/registered-products">
                                     <a className="nav-link text-[#333333] hover:text-[#555555] font-semibold focus:focus:text-[#555555] p-0" href="#">Registered Products</a>
                                 </Link>
                             </li>
