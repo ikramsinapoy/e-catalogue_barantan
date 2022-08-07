@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "nameCompany": "PT Batavia Ekspor",
+        "addressCompany": "Jl. Kemang Raya",
+        "contactCompany": "085297964859",
+        "nameProducts": "birdNest",
+        "type": "crops",
+        "commodity": "birdNest",
+        "picture": [
+            "https://drive.google.com/uc?export=view&id=1BUsBbVAVTsQI88z9Pb3UFwbHeML1xuUR",
+            "https://drive.google.com/uc?export=view&id=1b_TL3ewPlCLj9JDqk9eAaxAkdb47lRAV" 
+        ],
+        "price" : 195,
+        "unit": "kg",
+        "description": "Porang or in its Latin name Amorphophallus muelleri is a herbal plant that can grow to a height of 1.5 meters. This plant is a tuber producer that grows in tropical forests. Physically, this plant grows with white-green striped stems or single stalks. This plant can only grow under a supporting tree.",
+        "benefit": "Can help the diet, Lowering cholesterol and blood pressure, Lower the levels blood sugar",
+        "origin": "Indonesia",
+        "species": "Porang"
+    }
+]

@@ -13,7 +13,7 @@ function CardAnimal() {
                 
                 <div className='p-5'>
                     <h3 className='font-bold text-4xl mb-5 text-[#333333] text-center'>Bird's Nest</h3>
-                    <Link to="/products">
+                    <Link to={`/products-animal/birdNest`}>
                         <div className='flex justify-center'>
                             <button className='text-white bg-primary hover:bg-[#2f9e44] p-2 rounded-md w-8/12 hover:drop-shadow-md'>View Products</button>
                         </div>
@@ -26,9 +26,11 @@ function CardAnimal() {
                 
                 <div className='p-5'>
                     <h3 className='font-bold text-4xl mb-5 text-[#333333] text-center'>Honey</h3>
-                    <div className='flex justify-center'>
-                        <button className='text-white bg-primary hover:bg-[#2f9e44] p-2 rounded-md w-8/12 hover:drop-shadow-md'>View Products</button>
-                    </div>
+                    <Link to={`/products-animal/honey`}>
+                        <div className='flex justify-center'>
+                            <button className='text-white bg-primary hover:bg-[#2f9e44] p-2 rounded-md w-8/12 hover:drop-shadow-md'>View Products</button>
+                        </div>
+                    </Link>
                 </div>
             </div>
 
@@ -37,9 +39,11 @@ function CardAnimal() {
                 
                 <div className='p-5'>
                     <h3 className='font-bold text-4xl mb-5 text-[#333333] text-center'>Black Soldier Fly</h3>
-                    <div className='flex justify-center'>
-                        <button className='text-white bg-primary hover:bg-[#2f9e44] p-2 rounded-md w-8/12 hover:drop-shadow-md'>View Products</button>
-                    </div>
+                    <Link to={`/products-animal/blackSoldierFly`}>
+                        <div className='flex justify-center'>
+                            <button className='text-white bg-primary hover:bg-[#2f9e44] p-2 rounded-md w-8/12 hover:drop-shadow-md'>View Products</button>
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>

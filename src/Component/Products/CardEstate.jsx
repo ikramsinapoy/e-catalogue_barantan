@@ -14,7 +14,7 @@ function CardEstate() {
                 
                 <div className='p-4'>
                     <h3 className='font-bold text-4xl mb-5 text-[#333333] text-center'>Coffee Bean</h3>
-                    <Link to={`/products/coffee`}>
+                    <Link to={`/products-estate/coffee`}>
                         <div className='flex justify-center'>
                             <button className='text-white bg-primary hover:bg-[#2f9e44] p-2 rounded-md w-8/12 hover:drop-shadow-md'>View Products</button>
                         </div>
@@ -27,9 +27,11 @@ function CardEstate() {
                 
                 <div className='p-4'>
                     <h3 className='font-bold text-4xl mb-5 text-[#333333] text-center'>Nutmeg</h3>
-                    <div className='flex justify-center'>
-                        <button className='text-white bg-primary hover:bg-[#2f9e44] p-2 rounded-md w-8/12 hover:drop-shadow-md'>View Products</button>
-                    </div>
+                    <Link to={`/products-estate/nutmeg`}>
+                        <div className='flex justify-center'>
+                            <button className='text-white bg-primary hover:bg-[#2f9e44] p-2 rounded-md w-8/12 hover:drop-shadow-md'>View Products</button>
+                        </div>
+                    </Link>
                 </div>
             </div>
 
@@ -38,7 +40,7 @@ function CardEstate() {
                 
                 <div className='p-4'>
                     <h3 className='font-bold text-4xl mb-5 text-[#333333] text-center'>Vanili</h3>
-                    <Link to={`/products/vanili`}>
+                    <Link to={`/products-estate/vanili`}>
                         <div className='flex justify-center'>
                             <button className='text-white bg-primary hover:bg-[#2f9e44] p-2 rounded-md w-8/12 hover:drop-shadow-md'>View Products</button>
                         </div>
@@ -52,9 +54,11 @@ function CardEstate() {
                 
                 <div className='p-4'>
                     <h3 className='font-bold text-4xl mb-5 text-[#333333] text-center'>Pepper</h3>
-                    <div className='flex justify-center'>
-                        <button className='text-white bg-primary hover:bg-[#2f9e44] p-2 rounded-md w-8/12 hover:drop-shadow-md'>View Products</button>
-                    </div>
+                    <Link to={`/products-estate/pepper`}>
+                        <div className='flex justify-center'>
+                            <button className='text-white bg-primary hover:bg-[#2f9e44] p-2 rounded-md w-8/12 hover:drop-shadow-md'>View Products</button>
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>

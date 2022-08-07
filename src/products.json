@@ -1,62 +1,174 @@
 [
     {
         "id": 1,
-        "nameCompany": "PT taruna jaya",
-        "addressCompany": "jl soekarno hatta",
+        "nameCompany": "PT Batavia Kopi Ekspor",
+        "addressCompany": "Jl. Kemang Raya",
         "contactCompany": "085297964859",
         "nameProducts": "Luwak Coffe",
         "type": "estate",
         "commodity": "coffee",
-        "picture": "https://drive.google.com/uc?export=view&id=1He50rlvI5Sv2XgeEEnmc_W734a5zNCFu",
-        "price" : 100,
-        "unit": "gram",
-        "description": "The Kopi Luwak Coffee is the rarest and most expensive coffee globally with an incredibly limited supply being grown each year. This coffee was made famous from the 2007 movie, The Bucket List.",
-        "origin": "Indonesia, Sumatra, Gayo",
+        "picture": [
+            "https://drive.google.com/uc?export=view&id=1DMy5uY_qc5LKKmFG12ooqOIzOtdkTnxd",
+            "https://drive.google.com/uc?export=view&id=1bZQH5BGp7uoZz_SZGNzcbv3ikrjE89S0"
+        ],
+        "price" : 195,
+        "unit": "kg",
+        "description": "The Kopi Luwak Coffee is the rarest and most expensive coffee globally with an incredibly limited supply being grown each year. This coffee was made famous from the 2007 movie, The Bucket List. Kopi Luwak is distinguishable with its signature flavor and mesmerizing aromas. Long after the coffee is gone, the clean, lingering aftertaste consistently remains as a part of the consumption experience.",
+        "benefit": "Coffee is safe for the stomach, Improve cardiovascular health, Improve heart health",
+        "origin": "Indonesia",
         "species": "arabica"
     },
     {
         "id": 2,
-        "nameCompany": "PT taruna jaya",
-        "addressCompany": "jl soekarno hatta",
+        "nameCompany": "PT Olam Indonesia",
+        "addressCompany": "Jl. RP. Soeroso",
         "contactCompany": "085297964859",
         "nameProducts": "Gayo Coffe",
         "type": "estate",
         "commodity": "coffee",
-        "picture": "https://drive.google.com/uc?export=view&id=1He50rlvI5Sv2XgeEEnmc_W734a5zNCFu",
-        "price" : 50,
-        "unit": "gram",
-        "description": "The term complex is almost an understatement for this fine single origin coffee.",
+        "picture": [
+            "https://drive.google.com/uc?export=view&id=1RygMXPI-GCab1sEJeXFi97h6U1srQzHn",
+            "https://drive.google.com/uc?export=view&id=1uKuZKo5fhk-WHRT838jabcFNgfNhyATD"
+        ],
+        "price" : 195,
+        "unit": "kg",
+        "description": "The exotic, earthy scent of this Sumatra Gayo coffee is sure to grab the attention of anyone and everyone nearby. Notes of earth and an array of spices are present in harmony in a pleasantly heavy, syrupy body. This Indonesian coffee is low in acidity, rich in flavor, and finishes nice and clean. These are very high quality coffee beans, with a number of distinguished qualities on display.",
+        "benefit": "Stamina boost drink, Maintain heart health, Reduce the risk of diabetes",
         "origin": "Indonesia, Sumatra, Gayo",
         "species": "arabica"
     },
     {
         "id": 3,
-        "nameCompany": "PT taruna jaya",
-        "addressCompany": "jl soekarno hatta",
+        "nameCompany": "PT Sejong Bio Indonesia",
+        "addressCompany": "Jl soekarno hatta",
         "contactCompany": "085297964859",
         "nameProducts": "Toraja Coffe",
         "type": "estate",
         "commodity": "coffee",
-        "picture": "https://drive.google.com/uc?export=view&id=1He50rlvI5Sv2XgeEEnmc_W734a5zNCFu",
-        "price" : 230,
-        "unit": "gram",
-        "description": "Commonly called Madagascar Bourbon Vanilla, this plant actually originates from Mexico, but entered Indonesia in 1819 and it turns out to be more fertile in Indonesia because it has a more tropical climate, so that it has higher levels of vanilin, Indonesia has the best quality in the world for this type, its gourmet or prime of vanilla beans. higher moisture and best for extraction process.",
-        "origin": "Indonesia, Sumatra, Gayo",
+        "picture": [
+            "https://drive.google.com/uc?export=view&id=1yOG6oqmE7uuDAHt6ZwilGQHDq1rXFpvA",
+            "https://drive.google.com/uc?export=view&id=1AfwHKP2S4dt2gfAxKg7Ak2VrtyW7VeXk"
+        ],
+        "price" : 200,
+        "unit": "kg",
+        "description": "The term complex is almost an understatement for this fine single origin coffee. This Toraja coffee offers an array of flavors including that of ripe fruit, dark chocolate and cinnamon. A distinguished rustic sweetness is evident, and sets this coffee apart from many. As is typical of many Indonesian coffees, the acidity here is very low. All of this is wrapped up together in a nice smooth package that finishes with hints of spice and chocolate.",
+        "benefit": "Able to reduce body fat, Relieve pain in the body, Increase brain intelligence",
+        "origin": "Indonesia",
         "species": "arabica"
     },
     {
         "id": 4,
-        "nameCompany": "PT taruna jaya",
-        "addressCompany": "jl soekarno hatta",
+        "nameCompany": "PT Mitra Cemerlang",
+        "addressCompany": "Jl. Raya Dadap",
         "contactCompany": "085297964859",
-        "nameProducts": "Vanili",
+        "nameProducts": "Vanili Planifolia",
         "type": "estate",
         "commodity": "vanili",
-        "picture": "https://drive.google.com/uc?export=view&id=1vANoHL-k3P-uvgehorSRDe4ZnLunrjmm",
-        "price" : 230,
-        "unit": "gram",
+        "picture": [
+            "https://drive.google.com/uc?export=view&id=1YeuVOG_lz08yfO9EGHGZ6Cvfz6Gv6rI0",
+            "https://drive.google.com/uc?export=view&id=1lPoAk3Gxg5C-iuONWxDBBnk1Q97m8EHH"
+        ],
+        "price" : 175,
+        "unit": "kg",
         "description": "Commonly called Madagascar Bourbon Vanilla, this plant actually originates from Mexico, but entered Indonesia in 1819 and it turns out to be more fertile in Indonesia because it has a more tropical climate, so that it has higher levels of vanilin, Indonesia has the best quality in the world for this type, its gourmet or prime of vanilla beans. higher moisture and best for extraction process.",
-        "origin": "Indonesia, Sumatra, Gayo",
-        "species": "arabica"
+        "benefit": "Prevent and treat acne, Caring for skin health, Caring for hair health",
+        "origin": "Indonesia",
+        "species": "Planifolia"
+    },
+    {
+        "id": 5,
+        "nameCompany": "PT Djinos Farmer",
+        "addressCompany": "Jl. Bhayangkara",
+        "contactCompany": "085297964859",
+        "nameProducts": "Vanili Tahitensis",
+        "type": "estate",
+        "commodity": "vanili",
+        "picture": [
+            "https://drive.google.com/uc?export=view&id=1NeTP-IKmjkVCQsJSc-Pv_kCY1IEDL0ni",
+            "https://drive.google.com/uc?export=view&id=19ixYhoWJ2fIflvoeIUTS79nkc60OoUJ3"
+        ],
+        "price" : 175,
+        "unit": "kg",
+        "description": "Its original from Indonesia, shorter shape, plump, and contains a much higher oil and water content than vanilla planifolia. vanilla tahiti has a delicate floral and fruit aroma. as smelling like licorice, cherries, or wine and its favored by pastry cheff, the vanilla with fruity, floral, and sweet flavors created by the compound heliotropin, Chefs and its top floral bouquet and fruity notes that are extra vibrant and robust. Its flavor is immense and luxurious.",
+        "benefit": "Prevent cancer, Minimize cardiovascular risk, Caring for the digestive system",
+        "origin": "Indonesia",
+        "species": "Tahitensis"
+    }
+    ,
+    {
+        "id": 6,
+        "nameCompany": "PT Djinos Farmer",
+        "addressCompany": "Jl. Bhayangkara",
+        "contactCompany": "085297964859",
+        "nameProducts": "Black Pepper",
+        "type": "estate",
+        "commodity": "pepper",
+        "picture": [
+            "https://drive.google.com/uc?export=view&id=1zbCmGEyOFUiSpGclZgmmNY4RnRJgI0CJ",
+            "https://drive.google.com/uc?export=view&id=1qwHXdXUn3erOiqqetqpI8OzIGhhOhgCx"
+        ],
+        "price" : 175,
+        "unit": "kg",
+        "description": "After the peppercorns are dried, pepper spirit and oil can be extracted from the berries by crushing them. Pepper spirit is used in many medicinal and beauty products. Pepper oil is also used as an ayurvedic massage oil and in certain beauty and herbal treatments.",
+        "benefit": "Prevent indigestion, Relieve pain, Control blood sugar levels",
+        "origin": "Indonesia",
+        "species": "Black"
+    },
+    {
+        "id": 7,
+        "nameCompany": "PT Djinos Farmer",
+        "addressCompany": "Jl. Bhayangkara",
+        "contactCompany": "085297964859",
+        "nameProducts": "White Pepper",
+        "type": "estate",
+        "commodity": "pepper",
+        "picture": [
+            "https://drive.google.com/uc?export=view&id=17AOE4y-7GckSBHLRGeA6HZUTEVxROhx-",
+            "https://drive.google.com/uc?export=view&id=1VqdiBmy9eHzzqANiWduK86vKa-5fEO0K"
+        ],
+        "price" : 175,
+        "unit": "kg",
+        "description": "Ground white pepper is commonly used in Chinese, Thai, and Portuguese cuisines. It finds occasional use in other cuisines in salads, light-coloured sauces, and mashed potatoes as a substitute for black pepper, because black pepper would visibly stand out. However, white pepper lacks certain compounds present in the outer layer of the drupe, resulting in a different overall flavour",
+        "benefit": "Prevent indigestion, Prevents cell damage, Inhibits bacterial growth",
+        "origin": "Indonesia",
+        "species": "White"
+    },
+    {
+        "id": 8,
+        "nameCompany": "PT Djinos Farmer",
+        "addressCompany": "Jl. Bhayangkara",
+        "contactCompany": "085297964859",
+        "nameProducts": "Red Pepper",
+        "type": "estate",
+        "commodity": "pepper",
+        "picture": [
+            "https://drive.google.com/uc?export=view&id=13yjzCvLpvIErmyrBGcx5tpUz24OkVXLx", 
+            "https://drive.google.com/uc?export=view&id=1FVud6noxuLpSRuLQPEI-vydAvT7IZjoF"
+        ],
+        "price" : 175,
+        "unit": "kg",
+        "description": "Red peppercorns are the fruits of the Peruvian pepper tree, Schinus molle, or its relative, the Brazilian pepper tree, Schinus terebinthifolius, plants from a different family (Anacardiaceae). As they are members of the cashew family, they may cause allergic reactions, including anaphylaxis, for persons with a tree nut allergy.",
+        "benefit": "Prevent cancer, Inhibits bacterial growth, Caring for the digestive system",
+        "origin": "Indonesia",
+        "species": "Red"
+    },
+    {
+        "id": 9,
+        "nameCompany": "PT Djinos Farmer",
+        "addressCompany": "Jl. Bhayangkara",
+        "contactCompany": "085297964859",
+        "nameProducts": "Nutmeg",
+        "type": "estate",
+        "commodity": "nutmeg",
+        "picture": [
+            "https://drive.google.com/uc?export=view&id=1XbjOjxxLeqvf78wUxEBp_55Gd7Qo0vRi",
+            "https://drive.google.com/uc?export=view&id=1p6AmpAYcgUOl7-E2m-ZG7Rq4pTFqFtMu"
+        ],
+        "price" : 175,
+        "unit": "kg",
+        "description": "Nutmeg is used widely in dishes, and we must know that it can impact our health in variety ways. The nutritional values of nutmeg are vitamins, minerals, and organic compounds related to the essential oils. Besides that, nutmeg also contains dietary fiber, manganese, thiamin, vitamin B6, folate, magnesium, copper, and maceligan. These rich components then make nutmeg so nutritious and have some health benefits.",
+        "benefit": "Pain relieve, Digestive Health, Brain Health",
+        "origin": "Indonesia",
+        "species": "Nutmeg"
     }
 ]

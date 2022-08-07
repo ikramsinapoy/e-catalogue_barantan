@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "nameCompany": "PT Batavia Ekspor",
+        "addressCompany": "Jl. Kemang Raya",
+        "contactCompany": "085297964859",
+        "nameProducts": "Porang",
+        "type": "crops",
+        "commodity": "porang",
+        "picture": [
+            "https://drive.google.com/uc?export=view&id=1BUsBbVAVTsQI88z9Pb3UFwbHeML1xuUR",
+            "https://drive.google.com/uc?export=view&id=1b_TL3ewPlCLj9JDqk9eAaxAkdb47lRAV" 
+        ],
+        "price" : 195,
+        "unit": "kg",
+        "description": "Porang or in its Latin name Amorphophallus muelleri is a herbal plant that can grow to a height of 1.5 meters. This plant is a tuber producer that grows in tropical forests. Physically, this plant grows with white-green striped stems or single stalks. This plant can only grow under a supporting tree.",
+        "benefit": "Can help the diet, Lowering cholesterol and blood pressure, Lower the levels blood sugar",
+        "origin": "Indonesia",
+        "species": "Porang"
+    },
+    {
+        "id": 2,
+        "nameCompany": "PT Batavia Kopi Ekspor",
+        "addressCompany": "Jl. Kemang Raya",
+        "contactCompany": "085297964859",
+        "nameProducts": "Mung Bean",
+        "type": "crops",
+        "commodity": "mungBean",
+        "picture": [
+            "https://drive.google.com/uc?export=view&id=1EYr_ZV5Uuknljm3Q3HPzh8SkTK1mokOg",
+            "https://drive.google.com/uc?export=view&id=107RLGlW9o5SkLY2_x0qlRMRF6u5OxZWL"
+        ],
+        "price" : 195,
+        "unit": "kg",
+        "description": "Mung bean (Vigna radiata L.) is a tropical grain legume that is widely grown in subtropical countries of South and Southeast Asia which is the best source of protein, vitamins, and minerals among other legumes. There are also antioxidants and plant compounds called phytochemicals that are beneficial for humans. Mung bean can be harvested within 90 days. Based on data from the ministry of agriculture, mung bean exports in 2020 amounted to 48,534 tons, a drastic increase of 37.01%",
+        "benefit": "Reducing the risk of heart disease, Strengthening the immune system, Potentially preventing cancer",
+        "origin": "Indonesia",
+        "species": "bean"
+    }
+]
