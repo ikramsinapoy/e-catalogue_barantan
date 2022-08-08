@@ -14,7 +14,7 @@ function Form() {
 
     return (
         <div className=''>
-            <h3 className='text-3xl xl:text-4xl text-[#333333] font-semibold'>Profile Perusahaan</h3>
+            <h3 className='text-3xl xl:text-4xl text-[#333333] font-semibold'>Profile</h3>
             <hr className='my-5'/>
 
             <form>
@@ -28,8 +28,13 @@ function Form() {
                     <input className='border border-[#ced4da] rounded-md p-2 md:w-2/3' type="text"/>
                 </div>
 
-                <div className='flex flex-col md:flex-row md:items-center justify-between mb-7'>
-                    <p className='text-lg'>Telepon</p>
+                <div className='flex flex-col md:flex-row md:items-center justify-between mb-3'>
+                    <p className='text-lg'>Contact Person</p>
+                    <input className='border border-[#ced4da] rounded-md p-2 md:w-2/3' type="text"/>
+                </div>
+
+                <div className='flex flex-col md:flex-row md:items-center justify-between mb-3'>
+                    <p className='text-lg'>Telepon/Fax/HP</p>
                     <input className='border border-[#ced4da] rounded-md p-2 md:w-2/3' type="phone"/>
                 </div>
 
@@ -38,14 +43,14 @@ function Form() {
                     <input className='border border-[#ced4da] rounded-md p-2 md:w-2/3' type="phone"/>
                 </div>
 
-                <h3 className='text-3xl xl:text-4xl text-[#333333] font-semibold'>Informasi Pendukung Perusahaan</h3>
+                <h3 className='text-3xl xl:text-4xl text-[#333333] font-semibold'>Informasi Pendukung</h3>
                 <hr className='my-5'/>
-                <div className='flex flex-col md:flex-row md:items-center justify-between mb-7'>
+                <div className='flex flex-col md:flex-row md:items-center justify-between mb-3'>
                     <p className='text-lg'>Produk Unggulan</p>
                     <input className='border border-[#ced4da] rounded-md p-2 md:w-2/3' type="phone"/>
                 </div>
 
-                <div className='flex flex-col md:flex-row md:items-center justify-between mb-7'>
+                <div className='flex flex-col md:flex-row md:items-center justify-between mb-3'>
                     <p className='text-lg'>Produksi Panen</p>
                     <input className='border border-[#ced4da] rounded-md p-2 md:w-2/3' type="phone"/>
                 </div>
@@ -116,17 +121,21 @@ function Form() {
                     <input className='border border-[#ced4da] rounded-md p-2 md:w-2/3' type="text"/>
                 </div>
 
-                <div className='flex flex-col md:flex-row md:items-center justify-between mb-3'>
+                <div className='flex flex-col md:flex-row md:items-start justify-between mb-3'>
                     <p className='text-lg'>Foto Produk</p>
-                    <input className='border border-[#ced4da] rounded-md p-2 md:w-2/3' type="file"/>
+                    <div className='md:w-2/3 flex flex-col gap-2'>
+                        <input className='border border-[#ced4da] rounded-md p-2' type="file"/>
+                        <input className='border border-[#ced4da] rounded-md p-2' type="file"/>
+                        <input className='border border-[#ced4da] rounded-md p-2' type="file"/>
+                    </div>
                 </div>
-
-                <div className='flex flex-col md:flex-row md:items-center justify-between mb-3'>
+                
+                <div className='flex flex-col md:flex-row md:items-start justify-between mb-3'>
                     <p className='text-lg'>Deskripsi Produk</p>
                     <textarea className='border border-[#ced4da] rounded-md p-2 md:w-2/3' rows="4"></textarea>
                 </div>
 
-                <div className='flex flex-col md:flex-row md:items-center justify-between mb-3'>
+                <div className='flex flex-col md:flex-row md:items-start justify-between mb-3'>
                     <p className='text-lg'>Manfaat Produk</p>
                     <textarea className='border border-[#ced4da] rounded-md p-2 md:w-2/3' rows="3"></textarea>
                 </div>

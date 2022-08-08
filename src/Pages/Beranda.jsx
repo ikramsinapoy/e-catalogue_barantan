@@ -10,7 +10,7 @@ function Beranda() {
     <div>
         <Navbar/>
           <ImageSlider/>
-            <div className='py-20 w-11/12 xl:w-3/4 mx-auto bg-white'>
+            <div className='py-10 w-11/12 xl:w-3/4 mx-auto bg-white'>
                 <Products/>
                 <Promote/>
             </div>        

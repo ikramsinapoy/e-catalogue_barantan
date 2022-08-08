@@ -22,11 +22,11 @@ function Products() {
                     </Link>
                 </div>
             </div>
-            <img src={estate} className='w-full lg:w-1/2 h-48 md:h-60 2xl:h-96 object-cover rounded'/>
+            <img src={estate} className='w-full lg:w-1/2 h-48 md:h-60 2xl:h-96 object-cover rounded-xl'/>
         </div>
 
         <div className='flex flex-col md:flex-row items-center justify-center gap-2 sm:gap-5 2xl:gap-12 my-24'>
-            <img src={perkebunan} className='w-full lg:w-1/2 h-48 md:h-60 2xl:h-96 object-cover rounded'/>
+            <img src={perkebunan} className='w-full lg:w-1/2 h-48 md:h-60 2xl:h-96 object-cover rounded-xl'/>
             <div className='lg:w-2/5'>
                 <h4 className='font-bold text-5xl text-left mb-3 text-[#333333]'>Horticulture Products</h4>
                 <p className='text-xl text-left mb-5 text-[#555555]'>Tropical fruits from Indonesia have a high diversity. The quality can compete in the global market.</p>
@@ -52,11 +52,11 @@ function Products() {
                     </Link>
                 </div>
             </div>
-            <img src={horticulture} className='w-full lg:w-1/2 h-48 md:h-60 2xl:h-96 object-cover rounded'/>
+            <img src={horticulture} className='w-full lg:w-1/2 h-48 md:h-60 2xl:h-96 object-cover rounded-xl'/>
         </div>
 
         <div className='flex flex-col md:flex-row items-center justify-center gap-2 sm:gap-5 2xl:gap-12 my-24'>
-            <img src={animal} className='w-full lg:w-1/2 h-48 md:h-60 2xl:h-96 object-cover rounded'/>
+            <img src={animal} className='w-full lg:w-1/2 h-48 md:h-60 2xl:h-96 object-cover rounded-xl'/>
             <div className='lg:w-2/5'>
                 <h4 className='font-bold text-5xl text-left mb-3 text-[#333333]'>Animal Products</h4>
                 <p className='text-xl text-left mb-5 text-[#555555]'>Indonesian swiflet nests contains sialic acid which is beneficial for brain development. it also has low nitrite levels.</p>

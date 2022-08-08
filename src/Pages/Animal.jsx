@@ -12,7 +12,7 @@ function Animal() {
             <p className='text-2xl text-white text-center backdrop-blur-sm w-11/12 lg:w-fit mx-auto'>Indonesian swiflet nests contains sialic acid which is beneficial for brain development. it also has low nitrite levels.</p>
         </div>
 
-        <div className='my-20 w-11/12 lg:w-3/4 mx-auto'>
+        <div className='my-10 w-11/12 lg:w-3/4 mx-auto'>
           <CardAnimal/>
         </div>
         <Footer/>

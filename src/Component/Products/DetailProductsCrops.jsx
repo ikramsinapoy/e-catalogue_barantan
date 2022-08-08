@@ -16,7 +16,7 @@ function DetailProductsCrops() {
   return (
     <div>
         <Navbar/>
-        <div className='my-20 w-11/12 lg:w-3/4 mx-auto'>
+        <div className='my-10 w-11/12 lg:w-3/4 mx-auto'>
             <div className='mb-5'>
                 <nav class="rounded-md w-full">
                     <ol class="list-reset flex">

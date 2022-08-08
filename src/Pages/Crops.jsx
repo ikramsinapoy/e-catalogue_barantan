@@ -12,7 +12,7 @@ function Crops() {
             <p className='text-2xl text-white text-center backdrop-blur-sm w-11/12 lg:w-fit mx-auto'>Indonesian food plants as a source of carbohyrates and other content are in great demand by other countries.</p>
         </div>
 
-        <div className='my-20 w-11/12 lg:w-3/4 mx-auto'>
+        <div className='my-10 w-11/12 lg:w-3/4 mx-auto'>
           <CardCrops/>
         </div>
         <Footer/>
