@@ -64,7 +64,7 @@ function DetailEstate() {
                                     </li>
                                     <li className='flex'>
                                         <p className='w-28 sm:w-40'>Contact Person</p>
-                                        <p className=''>: {value.contactCompany}</p>
+                                        <p className=''>: {value.contactCompany} ({value.person})</p>
                                     </li>
                                 </ul>
                             </div>

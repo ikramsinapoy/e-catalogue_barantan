@@ -1,9 +1,10 @@
 [
     {
         "id": 1,
-        "nameCompany": "PT Batavia Ekspor",
-        "addressCompany": "Jl. Kemang Raya",
+        "nameCompany": "PT Tharwa Barokah Abadi",
+        "addressCompany": "Jl. Kalimaya Raya",
         "contactCompany": "085297964859",
+        "person": "Agil",
         "nameProducts": "Porang",
         "type": "crops",
         "commodity": "porang",
@@ -20,9 +21,10 @@
     },
     {
         "id": 2,
-        "nameCompany": "PT Batavia Kopi Ekspor",
-        "addressCompany": "Jl. Kemang Raya",
+        "nameCompany": "PT Total Harves Cemerlang",
+        "addressCompany": "Jl. Raya Ps. Setu",
         "contactCompany": "085297964859",
+        "person": "Ferly",
         "nameProducts": "Mung Bean",
         "type": "crops",
         "commodity": "mungBean",
