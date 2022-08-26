@@ -21,8 +21,13 @@ function Navbar() {
 
                 <div className="collapse navbar-collapse flex-grow items-center pb-2 lg:pb-0" id="navbarSupportedContent">
                     <a className="flex items-center mt-2 lg:mt-0 mr-1" href="/">
-                        <img src={logo} className="w-10" alt=""
-                        loading="lazy" />
+                       <div>
+                            <img src={logo} className="w-10 mx-auto mb-2" alt=""
+                            loading="lazy" />
+                            <p className='text-center text-xs'>BADAN KARANTINA PERTANIAN</p>
+                            <p className='text-center text-xs'>KEMENTERIAN PERTANIAN</p>
+                       </div>
+                       
                     </a>
 
                     <div className='w-fit lg:mx-auto mt-3'>
@@ -92,7 +97,12 @@ function Navbar() {
                 </div>
 
                 <div className="flex items-center relative">
-                    <img src={logoPertanian} className='w-10'/>
+                    <div>
+                        <img src={logoPertanian} className="w-10 mx-auto mb-2" alt=""
+                        loading="lazy" />
+                        <p className='text-center text-xs'>KEMENTERIAN PERTANIAN</p>
+                        <p className='text-center text-xs'>REPUBLIK INDONESIA</p>
+                    </div>
                 </div>
             </div>
         </nav>

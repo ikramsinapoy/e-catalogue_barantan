@@ -2,25 +2,25 @@ import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import coffee from '../Asset/coffee.jpg';
 import ListCoffee from '../../products.json';
-import axios from "axios";
+import { Axios } from '../../Helper/axios';
 
 function Card() {
     const { item } = useParams()
-    // const [products, setProducts] = useState([])
+    const [products, setProducts] = useState([])
 
-    // const fetchProducts = () => {
-    //     axios
-    //     .get('http://localhost/codeIgniter/api/estate')
-    //     .then((res) => {
-    //         setProducts(res.data.data)
-    //     })
-    // }
+    const fetchProducts = async () => {
+        await Axios
+        .get('/mahasiswa')
+        .then((res) => {
+            setProducts(res.data.data)
+        })
+    }         
 
-    // useEffect(() => {
-    //     fetchProducts();
-    // }, [setProducts])
+    useEffect(() => {
+        fetchProducts();
+    }, [])
 
-    console.log("products: ",item)
+    console.log("products: ",products)
 
     return (
         <div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5'>
@@ -30,7 +30,6 @@ function Card() {
                         <>
                         { value.commodity === item ?
                             <div key={value.id} className='bg-white rounded-lg border border-[#f1f3f5] drop-shadow-md hover:drop-shadow-lg max-w-sm'>
-                                
                                 <img src={value.picture[0]} alt="#" className='h-48 w-full rounded-t-lg object-cover'/>
                                 
                                 <div className='p-5'>
@@ -48,7 +47,6 @@ function Card() {
                         }
                         </>
                     )
-                    
                 })
             }
         </div>

@@ -3,9 +3,93 @@ import visit from '../Asset/visit.png'
 import dataPerusahaan from '../Asset/data perusahaan.png'
 import dataKomoditas from '../Asset/data komoditas.png'
 import post from '../Asset/post.png'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import Swal from 'sweetalert2'
 
 function Promote() {
+    const navigate = useNavigate();
+    const onClick = () =>{
+        Swal.fire({
+        title: 'Are you an agriculture exportir ?',
+        icon: 'question',
+        showCancelButton: true,
+        confirmButtonColor: '#00A700',
+        cancelButtonColor: '#273444',
+        cancelButtonText: 'No',
+        confirmButtonText: 'Yes'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                Swal.fire({
+                title: 'Submit your PPK online number',
+                input: 'text',
+                inputAttributes: {
+                    autocapitalize: 'off'
+                },
+                showCancelButton: true,
+                confirmButtonText: 'Look up',
+                showLoaderOnConfirm: true,
+                preConfirm: (login) => {
+                    return fetch(`//api.github.com/users/${login}`)
+                    .then(response => {
+                        if (!response.ok) {
+                        throw new Error(response.statusText)
+                        }
+                        return response.json()
+                    })
+                    .catch(error => {
+                        Swal.showValidationMessage(
+                        `Request failed: ${error}`
+                        )
+                    })
+                },
+                allowOutsideClick: () => !Swal.isLoading()
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        navigate('/registrasi-products')
+                    }
+                })
+            } else {
+                navigate('/registrasi-products')
+            }
+        })
+
+        // const swalWithBootstrapButtons = Swal.mixin({
+        // customClass: {
+        //     confirmButton: 'btn btn-success',
+        //     cancelButton: 'btn btn-danger'
+        // },
+        // buttonsStyling: false
+        // })
+
+        // swalWithBootstrapButtons.fire({
+        // title: 'Are you sure?',
+        // text: "You won't be able to revert this!",
+        // icon: 'warning',
+        // showCancelButton: true,
+        // confirmButtonText: 'Yes, delete it!',
+        // cancelButtonText: 'No, cancel!',
+        // confirmButtonColor: '#3085d6',
+        // cancelButtonColor: '#d33',
+        // reverseButtons: true
+        // }).then((result) => {
+        //     if (result.isConfirmed) {
+        //         swalWithBootstrapButtons.fire(
+        //         'Deleted!',
+        //         'Your file has been deleted.',
+        //         'success'
+        //         )
+        //     } else if (
+        //         /* Read more about handling dismissals below */
+        //         result.dismiss === Swal.DismissReason.cancel
+        //     ) {
+        //         swalWithBootstrapButtons.fire(
+        //         'Cancelled',
+        //         'Your imaginary file is safe :)',
+        //         'error'
+        //         )
+        //     }
+        // })
+    }
   return (
     <div>
         <h2 className='font-bold text-6xl text-center mb-10 text-[#333333]'>How To Promotes</h2>
@@ -37,9 +121,9 @@ function Promote() {
         </div>
 
         <div className='flex justify-center'>
-            <Link to="/registrasi-products">
-                <button className='bg-primary hover:bg-[#2f9e44] text-white p-3 rounded-md w-52 font-medium text-lg hover:drop-shadow-md'>promote me!</button>
-            </Link>
+            {/* <Link to="/registrasi-products"> */}
+                <button onClick={onClick} className='bg-primary hover:bg-[#2f9e44] text-white p-3 rounded-md w-52 font-medium text-lg hover:drop-shadow-md'>promote me!</button>
+            {/* </Link> */}
         </div>
     </div>
   )

@@ -7,7 +7,7 @@ function Crops() {
   return (
     <div>
         <Navbar/>
-        <div className='bg-estate h-96 w-full bg-cover bg-center bg-no-repeat bg-fixed flex flex-col justify-center'>
+        <div className='bg-home h-96 w-full bg-cover bg-center bg-no-repeat bg-fixed flex flex-col justify-center'>
             <h2 className='font-bold text-4xl lg:text-5xl xl:text-6xl mb-10 text-white text-center backdrop-blur-sm w-fit mx-auto'>Crops Products</h2>
             <p className='text-2xl text-white text-center backdrop-blur-sm w-11/12 lg:w-fit mx-auto'>Indonesian food plants as a source of carbohyrates and other content are in great demand by other countries.</p>
         </div>
